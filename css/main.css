@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(173, 216, 230, 0.301);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 375px;
+    margin: auto;
+    padding: 0 1em;
+    gap: 0.5em;
+}
+
+.advert-1 {
+    background-color: rgba(211, 211, 211, 0.137); 
+}
+
+.advert-1 p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+.product {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.product img {
+    width: 25%;
+    height: 100%;
+}
+
+
+.jaggy-advert {
+    width: 500px;
+    text-align: center;
+}
+
+.jaggy {
+    background-color: rgba(173, 216, 230, 0.203);
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-advert {
+    width: 60%;
+}
+
+.image {
+    background-color: lightgrey;
+    width: 40%;
+}
+
+.jaggy-advert h3 {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5em 0;
+}
+
+a {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
